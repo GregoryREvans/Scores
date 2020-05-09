@@ -1,0 +1,7 @@
+# exclude OS X custom attributes folder
+.DS_store
+
+# exclude score directories
+[a-z]*
+!Makefile
+!README.md
