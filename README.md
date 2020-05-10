@@ -1,10 +1,11 @@
-Scores directory
-================
+Scores
+======
 
-Repository does not version individual score packages. (Git ignore file
-excludes named directories.)
+Single-directory repository designed to house a composer's complete collection of scores.
 
-Evans score packages versioned as separate repositories of their own:
+Clone as many score repositories into this directory as you want: Git ignores directories beginning in a lowercase character.
+
+This repository's makefile includes rules to clone the following Evans scores:
 
 	Adumbration (2018) for string trio
 	Chalk Line (2020) for solo flute
@@ -14,3 +15,5 @@ Evans score packages versioned as separate repositories of their own:
 	Onkos (2018/19) for contrabass alone
 	Passagenwerk (2019) for string orchestra
 	Simbelmyne (2019-20) for solo piano
+
+Run "make all" to clone the 23 scores listed above.
