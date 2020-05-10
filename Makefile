@@ -1,5 +1,5 @@
 .PHONY: chalk_line guerrero hamon_shu magnolia onkos \
-	passagenwerk sim trio
+	passagenwerk sim
 
 chalk_line:
 	if [ ! -d "$@" ]; then git clone https://github.com/GregoryREvans/$@.git; fi;
@@ -29,10 +29,6 @@ sim:
 	if [ ! -d "$@" ]; then git clone https://github.com/GregoryREvans/$@.git; fi;
 	cd $@ && git pull && cd ..
 
-trio:
-	if [ ! -d "$@" ]; then git clone https://github.com/GregoryREvans/$@.git; fi;
-	cd $@ && git pull && cd ..
-
 all:
 	make chalk_line
 	make guerrero
@@ -41,4 +37,3 @@ all:
 	make onkos
 	make passagenwerk
 	make sim
-	make trio

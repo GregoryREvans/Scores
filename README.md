@@ -7,7 +7,6 @@ Clone as many score repositories into this directory as you want: Git ignores di
 
 This repository's makefile includes rules to clone the following Evans scores:
 
-	Adumbration (2018) for string trio
 	Chalk Line (2020) for solo flute
 	Frost on Magnolia Petals (2020) for alto saxophone
 	GUERRERO (2018) for 21 saxophones
@@ -16,4 +15,4 @@ This repository's makefile includes rules to clone the following Evans scores:
 	Passagenwerk (2019) for string orchestra
 	Simbelmyne (2019-20) for solo piano
 
-Run "make all" to clone the 8 scores listed above.
+Run "make all" to clone the 7 scores listed above.
