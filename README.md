@@ -16,4 +16,4 @@ This repository's makefile includes rules to clone the following Evans scores:
 	Passagenwerk (2019) for string orchestra
 	Simbelmyne (2019-20) for solo piano
 
-Run "make all" to clone the 23 scores listed above.
+Run "make all" to clone the 8 scores listed above.
